@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.box-container {
+    display: flex;
+
+}
+
+.box-container .box {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
