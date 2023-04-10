@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    list-style: none;
+    padding: 5rem;
+}
+
+nav ul li {
+    padding: 0 5rem;
+}
