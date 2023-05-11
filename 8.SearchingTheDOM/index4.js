@@ -15,6 +15,7 @@ textBox.replaceWith(div);
 
 // * adding adcent html
 div.insertAdjacentHTML("beforebegin", "<h1>BeforeBegin</h1>");
-div.insertAdjacentHTML("beforeend", "<h1>BeforeBegin</h1>");
-div.insertAdjacentHTML("afterend", "<h1>BeforeBegin</h1>");
-div.insertAdjacentHTML("afterbegin", "<h1>BeforeBegin</h1>");
+div.insertAdjacentHTML("beforeend", "<h1>BeforeEnd</h1>");
+div.insertAdjacentHTML("afterend", "<h1>AfterEnd</h1>");
+div.insertAdjacentHTML("afterbegin", "<h1>AfterBegin</h1>");
+div.remove();

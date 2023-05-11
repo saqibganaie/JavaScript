@@ -18,3 +18,16 @@ html {
     padding: 20px;
     margin: 20px;
 }
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-red {
+    background-color: red;
+    color: white;
+}
+
+.text-dark {
+    color: black;
+}
