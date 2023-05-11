@@ -8,6 +8,11 @@ html {
     font-size: 62.5%;
 }
 
+main {
+    height: 100vh;
+    background-color: rgb(211, 174, 126);
+}
+
 nav {
     padding: 4rem;
     font-size: 4rem;
@@ -16,9 +21,10 @@ nav {
 }
 
 .joke {
+    position: relative;
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 60vh;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -36,11 +42,14 @@ nav {
 }
 
 .joke #random-joke-btn {
+    position: absolute;
+    bottom: 5rem;
     font-size: 3rem;
     border-radius: 1rem;
     padding: 2rem 4rem;
     background: rgb(38, 240, 240);
     color: black;
     text-shadow: 0rem 0rem 0.1rem black;
-
+    cursor: pointer;
+    user-select: none;
 }
