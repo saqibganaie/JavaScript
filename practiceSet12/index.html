@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Set 12</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header><h1>Simple Interest Calculator</h1></header>
+    <main>
+      <form id="simple-interest-form" action="">
+        <label for="principal-amount">Principal Amount</label>
+        <input
+          id="principal-amount"
+          type="number"
+          placeholder="Principal Amount"
+          required
+        />
+        <label for="rate-of-interest">Rate of Interest</label>
+        <input
+          id="rate-of-interest"
+          type="number"
+          placeholder="Rate of Interest"
+          required
+        />
+        <label for="time">Time (in years)</label>
+        <input id="time" type="number" placeholder="Time (in years)" required />
+        <button
+          onclick="updateSI()"
+          type="button"
+          id="calculte-simple-interest"
+        >
+          Calculate
+        </button>
+        <label for="simple-interest">Simple Interest</label>
+        <input id="simple-interest" type="number" value="0" disabled />
+        <!--<h2>This is for My practice only</h2>
+        <input type="range" id="range-scale" oninput="updateRange()" />
+        <div id="range-container"></div>-->
+      </form>
+    </main>
+    <footer></footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

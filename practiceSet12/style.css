@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 1rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.835);
+    color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.885);
+    min-height: 100vh;
+    padding: 2rem 5rem;
+}
+
+form {
+    background-color: rosybrown;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40rem;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0rem auto;
+    font-size: 1.5rem;
+}
+
+form label {
+    color: greenyellow;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+form input {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    margin: 1rem;
+    transition: 0.3s;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+form input:focus {
+    outline: none;
+    transform: scale(1.05);
+}
+
+#simple-interest {
+    background-color: white;
+}
+
+button {
+    all: unset;
+    background-color: rgba(0, 0, 0, 0.885);
+    padding: 0.5rem 1.5rem;
+    width: 50%;
+    margin-block: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#range-container {
+    border: 1px solid black;
+    width: 10rem;
+    aspect-ratio: 1/1;
+    background-color: cyan;
+}
