@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 1rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.835);
+    color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+h2 {
+    margin-block: 1rem;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.885);
+    min-height: 100vh;
+    padding: 2rem 5rem;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container {
+    background-color: aquamarine;
+    padding: 1rem;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input,
+select {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    margin: 0 2rem;
+    width: 10%;
+}
+
+input:focus {
+    outline: none;
+}
+
+select {
+    width: auto;
+}
+
+.error-notification {
+    min-width: 40vw;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    background-color: red;
+    position: absolute;
+    left: 30%;
+    border-radius: 10px;
+    margin-top: 1rem;
+    top: -100%;
+    transition: 0.5s ease-in-out;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    padding: 1rem 5rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 255, 255, 0.9);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+audio {
+    display: none;
+}
+
+#pause-btn {
+    color: white;
+    display: none;
+    background-color: red;
+}

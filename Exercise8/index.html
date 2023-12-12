@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="error-notification"></div>
+    <header><h1>Alarm Clock</h1></header>
+    <main>
+      <h2>Current Time</h2>
+      <div id="current-time-container" class="container"></div>
+      <h2>Set Alarm</h2>
+      <div id="alarm-time-container" class="container">
+        <label for="alarm-hours">Hours</label>
+        <input id="alarm-hours" type="number" value="0" min="0" max="12" />
+        <label for="alarm-minutes">Minutes</label>
+        <input id="alarm-minutes" type="number" value="0" min="0" max="60" />
+        <select name="meridian" id="alarm-meridian">
+          <option value="am">AM</option>
+          <option value="pm">PM</option>
+        </select>
+      </div>
+      <button id="set-alarm-btn" onclick="setAlarm()">Set Alarm</button>
+      <div id="alarm-audio-container"></div>
+      <button id="pause-btn" onclick="alarmOff()">Alarm off</button>
+    </main>
+    <footer></footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
