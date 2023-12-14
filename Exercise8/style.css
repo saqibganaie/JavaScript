@@ -95,7 +95,7 @@ button:hover {
 }
 
 audio {
-    display: none;
+    /*display: none;*/
 }
 
 #pause-btn {

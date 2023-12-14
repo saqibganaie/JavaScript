@@ -1,3 +1,6 @@
+// * The logic for playing the alarm is really shitty. I didn't knew about the play() method at that time and thought autoplay() is the only way to play the audio.
+// * Dont laught at yourself for doing this future Saqib..... or anyone who is reading this.
+
 let currentTimeContainer = document.getElementById("current-time-container");
 let notificaitonBar = document.getElementsByClassName("error-notification")[0];
 let pauseBtn = document.getElementById("pause-btn");
